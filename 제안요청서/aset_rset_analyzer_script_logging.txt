@@ -1,0 +1,7 @@
+theng :: INFO :: Logging initialized at 21:27:25 on 05/17/2026
+theng.aset_rset_analyzer :: INFO :: 요양병원 ASET-RSET 자동 연계 분석을 시작합니다.
+theng.aset_rset_analyzer :: WARNING :: 로딩된 PyroSim 또는 Pathfinder 모델이 없습니다. 데모 데이터를 사용합니다.
+theng.aset_rset_analyzer :: INFO :: 데모용 가상 분석을 진행합니다 (논문 및 연구 통계 자료 반영).
+theng.aset_rset_analyzer :: INFO :: 데이터 분석 파일 저장 완료: aset_rset_analysis_results.csv
+theng.aset_rset_analyzer :: INFO :: 인터랙티브 3D/2D 안전성 평가 대시보드 생성을 시작합니다.
+theng.aset_rset_analyzer :: INFO :: 인터랙티브 대시보드가 성공적으로 생성되었습니다: ASET_RSET_Interactive_Dashboard.html
