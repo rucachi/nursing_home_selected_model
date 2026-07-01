@@ -3,6 +3,7 @@ import './App.css';
 import StepWizard from './components/StepWizard';
 import ResultReport from './components/ResultReport';
 import { questions } from './data/questions';
+import icuhLogo from './assets/ICUH_LOGO.png';
 
 function App() {
   const [currentStep, setCurrentStep] = useState(0);
@@ -33,7 +34,7 @@ function App() {
     <div className="app-container">
       <header className="app-header">
         <div className="header-content">
-          <img src="/ICUH_LOGO.png" alt="ICUH Logo" className="logo" />
+          <img src={icuhLogo} alt="ICUH Logo" className="logo" />
           <h1>요양병원시설 대피체계 진단</h1>
         </div>
       </header>
